@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: $m-size;
+  background-color: #766df4;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: $l-size;
+}
+
+p {
+  font-size: $m-size;
+  font-size: 100;
+}
+
+button,
+button:active,
+button:focus {
+  padding: 17px 25px;
+  background-color: #fff;
+  color: #766df4;
+  border: none;
+  border-radius: 3px;
+  max-width: 170px;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+input:focus {
+  border: none;
+}
+
+.centered-app {
+  width: $desktop-breakpoint;
+  margin: 0 auto;
+}

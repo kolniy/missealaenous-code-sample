@@ -1,0 +1,36 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "dev": "live-server public",
+    "dev-server": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.3",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "eslint": "7.3.1",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.0.5",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "3.8.2"
+  },
+  "dependencies": {
+    "babel-loader": "8.0.6",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "css-loader": "3.2.0",
+    "fibers": "4.0.1",
+    "node-sass": "4.12.0",
+    "normalize.css": "8.0.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-modal": "3.10.1",
+    "sass": "1.23.0",
+    "sass-loader": "8.0.0",
+    "style-loader": "1.0.0",
+    "webpack": "4.41.0"
+  }
+}
